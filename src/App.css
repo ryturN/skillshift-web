@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand:wght@300;400&family=Roboto:wght@300&family=Varela+Round&family=Zen+Tokyo+Zoo&display=swap');
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-zen {
+  font-family: 'zen tokyo zoo', cursive;
+}
+
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+* {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #656565;
+  --sb-size: 5px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+*::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+  opacity: 0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  
+  }
